@@ -12,6 +12,11 @@ let greetMe = function () {
     console.log('Hello from the function expression');
 }
 
+let saludo = (nombre, tratamiento) => {
+    console.log('Hola ' + tratamiento + ' ' + nombre);
+}
+
 greet(); //Invoke
 logGreeting(greet);
 greetMe();
+saludo('Miguel', 'sr.');

@@ -7,6 +7,11 @@ function logGreeting(fn) {
     fn();
 };
 
-logGreeting(greet);
+// function expression
+let greetMe = function () {
+    console.log('Hello from the function expression');
+}
 
-// greet(); //Invoke
+greet(); //Invoke
+logGreeting(greet);
+greetMe();

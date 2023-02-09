@@ -16,9 +16,11 @@ let saludo = (nombre, tratamiento) => {
     console.log('Hola ' + tratamiento + ' ' + nombre);
 }
 
-let cuadrado = numero => {
-    return numero * numero;
-}
+// let cuadrado = numero => {
+//     return numero * numero;
+// }
+
+let cuadrado = numero => numero * numero;
 
 greet(); //Invoke
 logGreeting(greet);
